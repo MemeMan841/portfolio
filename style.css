@@ -1,0 +1,268 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my css*/
+
+body {
+	font-size: 17px;
+	font-family: Arial;
+	color: white;
+}
+
+.projects {
+	padding-top: 15px;
+	text-align: center;
+	color: #4285F4;
+}
+
+
+a:link {
+	color: #4285F4;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.banner-title {
+	font-size: 13px;
+	letter-spacing: 3px;
+	font-family: Notable;
+	transform: scale(1, 2);
+	color: white;
+	position: absolute;
+	top: 20px;
+	position: absolute;
+
+	width: 220px;
+	/*center an absolute element*/
+	left: 50%;
+	margin-left: -150px
+}
+
+.banner-paragraph {
+	font-size: 13px;
+	letter-spacing: 3px;
+	font-family: Bai Jamjuree;
+	color: white;
+	position: absolute;
+	top: 60px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px
+}
+
+.banner-paragraph2 {
+	font-size: 13px;
+	letter-spacing: 3px;
+	font-family: Bai Jamjuree;
+	color: white;
+	position: absolute;
+	top: 120px;
+	left: 40px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px
+}
+
+.banner-img {
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.pofile-img {
+	border-radius: 50%;
+	height: 100px;
+	position: absolute;
+	top: 230px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.icon {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 340px;
+}
+
+.icon1 {
+	left: 50%;
+	margin-left: 10px;
+}
+
+.icon2 {
+	left: 50%;
+	margin-left: -20px;
+}
+
+.icon3 {
+	left: 50%;
+	margin-left: -16px;
+	margin-top: 7px;
+}
+
+.line {
+	color: green;
+	width: 100%;
+	height: 10px;
+}
+
+.nav {
+	position: absolute;
+	top: 395px;
+	color: white;
+	display: inline-block;
+	font-family: Bai Jamjuree;
+
+	left: 50%;
+	margin-left: -63px;
+}
+
+.project-img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.project-img-laptop {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  margin-top: 20px
+}
+
+.last {
+	margin-bottom: 20px;
+}
+
+.project-img-caption {
+	margin-top: 5px;
+	color: #303030;
+	font-family: sans-serif;
+	font-weight: 800;
+	text-align: center;
+}
+
+.project-img-caption a{
+	text-decoration: none;
+	transition: color .5s;
+}
+
+.project-img-caption a:link{
+	color: #303030;
+}
+
+.project-img-caption a:hover{
+	color: rgb(73, 194, 249);
+}
+
+.project-img-description {
+	margin-top: 10px;
+	color: #868686;
+	width: 300px;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+hr {
+	margin-top: 20px;
+	width: 80%;
+	height: 0.25px;
+}
+
+.technology {
+	font-size: 14px;
+	background-color: blue;
+	display: inline-block;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.technology-container {
+	text-align: center;
+	margin-top: 15px;
+}
+
+body {
+	line-height: 17px;
+	letter-spacing: 1px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.selected {
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding-bottom: 5px;
+}
+
+.contact-info {
+	margin-top: 40px;
+	color: black;
+	text-align: center;
+}
+
+
+
+
+
